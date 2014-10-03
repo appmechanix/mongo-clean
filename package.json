@@ -1,0 +1,23 @@
+{
+  "name": "mongo-clean",
+  "version": "0.0.1",
+  "description": "Clean mongo entities",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwnz/mongo-clean.git"
+  },
+  "keywords": [
+    "mongo",
+    "clean"
+  ],
+  "author": "dwnz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwnz/mongo-clean/issues"
+  },
+  "homepage": "https://github.com/dwnz/mongo-clean"
+}

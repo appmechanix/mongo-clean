@@ -1,10 +1,10 @@
 {
   "name": "mongo-clean",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Clean mongo entities",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/dwnz/mongo-clean/issues"
   },
-  "homepage": "https://github.com/dwnz/mongo-clean"
+  "homepage": "https://github.com/dwnz/mongo-clean",
+  "devDependencies": {
+  "chai": "^1.9.2",
+    "mocha": "^1.21.4"
+  }
 }

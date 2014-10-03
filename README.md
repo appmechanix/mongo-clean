@@ -7,7 +7,9 @@ Cleans unneeded stuff of mongo entities before sending them out over AJAX.
 Installing
 ==========
 
+```bash
 npm install https://github.com/dwnz/mongo-clean/archive/0.0.1.tar.gz --save
+```
 
 Using
 =====

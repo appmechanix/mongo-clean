@@ -4,7 +4,7 @@
   "description": "Clean mongo entities",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha ./tests/test.js"
+    "test": "nodeunit"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/dwnz/mongo-clean",
   "devDependencies": {
-  "chai": "^1.9.2",
-    "mocha": "^1.21.4"
+    "nodeunit": "^0.9.0"
   }
 }

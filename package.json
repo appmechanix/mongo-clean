@@ -1,5 +1,5 @@
 {
-  "name": "mongo-clean",
+  "name": "dwnz-mongo-clean",
   "version": "0.0.2",
   "description": "Clean mongo entities",
   "main": "lib/index.js",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/dwnz/mongo-clean",
   "devDependencies": {
     "nodeunit": "^0.9.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }

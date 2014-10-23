@@ -8,7 +8,7 @@ Installing
 ==========
 
 ```bash
-npm install https://github.com/dwnz/mongo-clean/archive/0.2.tar.gz --save
+npm install dwnz-mongo-clean --save
 ```
 
 Using

@@ -48,3 +48,9 @@ var item = {
 
 var cleanItem = cleaner.clean(item, ['Test']);
 ```
+
+Running Tests
+=============
+```
+npm test
+```

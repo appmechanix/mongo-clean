@@ -20,7 +20,7 @@ exports.TestThat__vIsStripped = function (test) {
 
     item = clean(item);
 
-    test.equal(undefined, item.AccountKey);
+    test.equal(undefined, item.__v);
     test.done();
 };
 
@@ -32,7 +32,7 @@ exports.TestThatUserIdIsStripped = function (test) {
 
     item = clean(item);
 
-    test.equal(undefined, item.AccountKey);
+    test.equal(undefined, item.UserId);
     test.done();
 };
 

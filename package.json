@@ -1,6 +1,6 @@
 {
   "name": "dwnz-mongo-clean",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Clean mongo entities",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dwnz/mongo-clean.git"
+    "url": "https://github.com/appmechanix/mongo-clean"
   },
   "keywords": [
     "mongo",
@@ -17,9 +17,9 @@
   "author": "dwnz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dwnz/mongo-clean/issues"
+    "url": "https://github.com/appmechanix/mongo-clean/issues"
   },
-  "homepage": "https://github.com/dwnz/mongo-clean",
+  "homepage": "https://github.com/appmechanix/mongo-clean",
   "devDependencies": {
     "nodeunit": "^0.9.0"
   },

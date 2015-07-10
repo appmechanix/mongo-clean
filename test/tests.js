@@ -120,7 +120,7 @@ exports.TestThatCustomKeyIsRemovedFromArray = function (test) {
         }
     ];
 
-    items = clean(items);
+    items = clean(items, ['Password']);
 
     for (var i = 0; i < items.length; i++) {
         test.equal(undefined, items[i].AccountKey);
@@ -154,6 +154,26 @@ exports.TestThatAddingAGlobalRemoveKeyRemovesItFromTheList = function (test) {
     item = clean(item);
 
     test.equal(undefined, item.Test);
+
+    test.done();
+};
+
+exports.TestThatNonGlobalKeysDontHangAround = function (test) {
+    var item = {
+        name: 'Daniel',
+        created: 1
+    };
+
+    var outItem = clean(item, ['created']);
+    test.equal(undefined, outItem.created);
+
+    var item2 = {
+        name: 'Daniel',
+        created: 1
+    };
+
+    var outItem2 = clean(item2);
+    test.equal(1, outItem2.created);
 
     test.done();
 };
